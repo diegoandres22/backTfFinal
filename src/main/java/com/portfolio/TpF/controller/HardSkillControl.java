@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("hard")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfoliodiegovelasquez.web.app")
 public class HardSkillControl {
     @Autowired
     private iHaskillsService estuhard;

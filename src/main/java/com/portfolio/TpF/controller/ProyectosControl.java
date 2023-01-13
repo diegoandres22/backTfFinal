@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("pro")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProyectosControl {
      @Autowired
     private iProyectosService proye;

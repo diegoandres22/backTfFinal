@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @CrossOrigin(origins = "https://portfoliodiegovelasquez.web.app")
+@CrossOrigin(origins = "https://portfoliodiegovelasquez.firebaseapp.com")
 public class controller {
 
     @Autowired

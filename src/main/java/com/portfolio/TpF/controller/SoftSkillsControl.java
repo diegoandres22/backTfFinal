@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("soft")
-@CrossOrigin(origins = {"https://portfoliodiegovelasquez.web.app", "http://localhost:4200", "portfoliodiegovelasquez.firebaseapp.com"})
+@CrossOrigin
 public class SoftSkillsControl {
 
     @Autowired

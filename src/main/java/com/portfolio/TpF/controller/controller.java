@@ -20,7 +20,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
-@CrossOrigin(origins = {"https://portfoliodiegovelasquez.web.app", "http://localhost:4200", "portfoliodiegovelasquez.firebaseapp.com"})
+@CrossOrigin
 public class controller {
 
     @Autowired

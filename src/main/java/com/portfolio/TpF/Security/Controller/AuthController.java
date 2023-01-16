@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://portfoliodiegovelasquez.web.app")
+@CrossOrigin(origins = {"https://portfoliodiegovelasquez.web.app", "http://localhost:4200", "portfoliodiegovelasquez.firebaseapp.com"})
 
 public class AuthController {
 
